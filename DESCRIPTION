@@ -1,0 +1,18 @@
+Package: AzureStorage
+Type: Package
+Title: Interface with Azure Storage API
+Description: Functions and datasets to support Azure Storage.
+Version: 0.0.1
+Date: 2015-10-24
+Author: Microsoft
+Copyright: Microsoft
+Maintainer: Andrie de Vries <adevries@microsoft.com>
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+    httr,
+    base64enc,
+    digest,
+    xml2
+Suggests:
+    testthat
